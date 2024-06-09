@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task12</title>
+</head>
+<body>
+    <h1>jstask12</h1>
+     <h1>2.create a document of array methods like pop, push, shift, unshift , join and remaining methods 
+    </h1>
+    <a href="https://docs.google.com/document/d/1NmenPHH8RCT-E15OoyQkZEFzw2c9bScp41ZlZbf_eBw/edit?usp=sharing">document</a>
+
+
+    <script>
+/* Task: 1.write a javascript program for given below :
+
+
+input= "ch_ai_ta_ny_a"
+
+
+output : ChAiTaNyA*/
+
+n="ch_ijjj_jjk_o"
+function big(n){
+    var a=n.split("_");
+    var temp="";
+    for(var i of a){
+      let x=i.slice(0,1).toUpperCase()+i.slice(1);
+        temp=temp+x
+        
+    }
+    return temp;
+}
+console.log(big(n))
+
+ 
+
+
+
+
+
+/*3.write a js program to find the sum of natural numbers :
+input =100*/
+n=100
+function natural(n){
+     return (n*(n+1))/2
+}
+console.log(natural(n))
+ 
+</script>
+</body>
+</html>
